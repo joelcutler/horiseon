@@ -4,10 +4,43 @@
     margin: 0;
 }
 
+/* TYPE STYLES START */
 body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+img {
+    max-height: 200px;
+}
+/* TYPE STYLES END */
+
+/* UTILITY STYLES START */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* UTILITY STYLES END */
+
+/* HEADER STYLES START */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +73,9 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/* HEADER STYLES END */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* HERO STYLES START */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,21 +84,14 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* HERO STYLES END */
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    
 }
 
 .benefits {
@@ -161,33 +180,7 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* FOOTER STYLES START */
 .footer {
     padding: 30px;
     clear: both;
@@ -197,4 +190,6 @@ p {
 
 .footer h2 {
     font-size: 20px;
+    margin-bottom: 0;
 }
+/* FOOTER STYLES END */
